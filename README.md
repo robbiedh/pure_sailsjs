@@ -1,4 +1,5 @@
 # belajar-3
+no frontend no link
 
 a [Sails v1](https://sailsjs.com) application
 
