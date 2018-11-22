@@ -51,4 +51,17 @@ try {
 
 
 // Start server
-sails.lift(rc('sails'));
+sails.lift(rc('sails',{
+  "generators": {
+    "modules": {}
+  },
+  "_generatedWith": {
+    "sails": "1.1.0",
+    "sails-generate": "1.16.0"
+  },"hooks":{
+    "grunt":false
+  },"paths":{
+    "public":"assets"
+  }
+}
+));
